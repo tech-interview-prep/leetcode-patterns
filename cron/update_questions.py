@@ -60,7 +60,7 @@ def construct_company_tag_list(company_tags_json, sections):
 
 
 def update_question_metadata(question, response):
-    print(f'''🔄 update_question_metadata Qesponse {response''')
+    print(f'''🔄 update_question_metadata Qesponse {response}''')
     print(f'''🔄 Updating question metadata for {question["title"]}''')
 
     question_title = response.data.question.title
